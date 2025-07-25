@@ -5,7 +5,6 @@ import team1 from '../../assets/team1.png';
 function AboutUs() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 text-gray-800">
-      {/* Title */}
       <motion.h1
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -15,7 +14,6 @@ function AboutUs() {
         About Us
       </motion.h1>
 
-      {/* Description */}
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -26,7 +24,6 @@ function AboutUs() {
         and lifestyle. Our team is passionate about delivering top-notch products and exceptional customer service.
       </motion.p>
 
-      {/* Mission Box */}
       <motion.div
         initial={{ scale: 0.9, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
@@ -42,7 +39,6 @@ function AboutUs() {
         </p>
       </motion.div>
 
-      {/* Journey Timeline */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -57,7 +53,6 @@ function AboutUs() {
         </ul>
       </motion.div>
 
-      {/* Team Members */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -87,7 +82,6 @@ function AboutUs() {
         </div>
       </motion.div>
 
-      {/* Contact Button */}
       <motion.div
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}

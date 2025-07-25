@@ -53,7 +53,6 @@ function Checkout() {
     <div className="max-w-4xl mx-auto p-6 bg-white rounded shadow mt-10">
       <h2 className="text-3xl font-bold mb-6">Checkout</h2>
 
-      {/* Order Summary */}
       <section className="mb-8">
         <h3 className="text-xl font-semibold mb-4">Order Summary</h3>
         <ul className="divide-y divide-gray-200">
@@ -79,7 +78,6 @@ function Checkout() {
         </div>
       </section>
 
-      {/* Form */}
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
           <label className="block mb-1 font-medium" htmlFor="fullName">Full Name</label>

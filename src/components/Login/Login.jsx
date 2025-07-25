@@ -65,14 +65,12 @@ function LoginPage() {
           </button>
         </form>
 
-        {/* Divider */}
         <div className="flex items-center my-4">
           <div className="flex-grow h-px bg-gray-200" />
           <span className="px-3 text-xs text-gray-500">OR</span>
           <div className="flex-grow h-px bg-gray-200" />
         </div>
 
-        {/* Toggle link */}
         <p className="text-sm text-center">
           {formType === 'register' ? (
             <>

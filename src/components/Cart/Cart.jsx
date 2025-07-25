@@ -78,12 +78,10 @@ function Cart() {
             ))}
           </div>
 
-          {/* ✅ Total */}
           <div className="mt-6 text-centre font-semibold text-lg text-gray-800">
             Total: ${getTotal()}
           </div>
 
-          {/* ✅ Buttons */}
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mt-6">
             <Link
               to="/shop/layout"

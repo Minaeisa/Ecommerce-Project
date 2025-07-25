@@ -10,9 +10,7 @@ function ContactUs() {
         We'd love to hear from you. Whether you have a question about features, pricing, or anything else.
       </p>
 
-      {/* Contact Info + Form */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* Contact Info */}
         <div className="space-y-6">
           <div className="flex items-start gap-4">
             <MapPinIcon className="h-6 w-6 text-indigo-600 mt-1" />
@@ -39,7 +37,6 @@ function ContactUs() {
           </div>
         </div>
 
-        {/* Contact Form */}
         <form className="space-y-4">
           <div>
             <label className="block mb-1 font-medium">Name</label>

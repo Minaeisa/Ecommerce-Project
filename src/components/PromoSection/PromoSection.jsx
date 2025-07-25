@@ -1,4 +1,3 @@
-// components/PromoSection.jsx
 import promo1 from '../../assets/promo1.jpg';
 import promo2 from '../../assets/promo2.jpg';
 
@@ -6,7 +5,6 @@ import promo2 from '../../assets/promo2.jpg';
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 md:grid-cols-2 gap-6">
       
-      {/* Card 1 */}
       <div className="relative overflow-hidden rounded-xl group h-60 sm:h-72 md:h-80 lg:h-96">
         <img
           src={promo1}
@@ -22,7 +20,6 @@ import promo2 from '../../assets/promo2.jpg';
         </div>
       </div>
 
-      {/* Card 2 */}
       <div className="relative overflow-hidden rounded-xl group h-60 sm:h-72 md:h-80 lg:h-96">
         <img
           src={promo2}

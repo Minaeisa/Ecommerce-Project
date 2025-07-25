@@ -3,9 +3,9 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* خليهم متفرقين حسب التصميم */
+  justify-content: space-between; 
   padding: 1rem 2rem;
-  flex-wrap: nowrap; /* منع الالتفاف عشان يحافظ على الترتيب */
+  flex-wrap: nowrap;  
   position: relative;
   z-index: 50;
 }
@@ -15,7 +15,7 @@
   align-items: center;
   gap: 0.5rem;
   font-size: 1.5rem;
-  /* موقع اللوجو طبيعي */
+  
 }
 
 .logo-text {
@@ -26,7 +26,7 @@
   display: flex;
   gap: 1.5rem;
   flex-wrap: nowrap;
-  justify-content: flex-end; /* القائمة على اليمين بشكل افتراضي */
+  justify-content: flex-end; 
 }
 
 .nav-item,
@@ -98,7 +98,7 @@
   position: absolute;
   top: 100%;
   right: 0;
-  width: 22rem; /* زودنا الحجم */
+  width: 22rem; 
   background-color: white;
   color: black;
   border-radius: 6px;
@@ -135,10 +135,10 @@
   cursor: pointer;
 }
 
-/* الموبايل - اخفاء القائمة العادية */
+
 @media (max-width: 768px) {
   .nav-links {
-    display: none !important; /* اخفاء القائمة الافتراضية */
+    display: none !important;
   }
 
   .hamburger {
@@ -168,13 +168,13 @@
     color: #6366f1;
   }
 
-  /* اخفاء اللوجو والاسم في الموبايل */
+
   .logo {
     display: none;
   }
 }
 
-/* التابلت:  بين 769px و 1024px */
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .nav-links {
     justify-content: flex-start !important;

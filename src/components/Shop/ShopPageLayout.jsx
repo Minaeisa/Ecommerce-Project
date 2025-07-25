@@ -31,7 +31,7 @@ function ShopPageLayout() {
       setAlertMessage('✅ Product added to cart!');
     }
 
-    setTimeout(() => setAlertMessage(''), 2000); // Hide after 2 sec
+    setTimeout(() => setAlertMessage(''), 2000); 
   };
 
   const sortedProducts = [...products]
@@ -47,14 +47,12 @@ function ShopPageLayout() {
     <div className="max-w-7xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">🛍️ Shop All Products</h1>
 
-      {/* Alert */}
       {alertMessage && (
         <div className="mb-4 text-center bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-2 rounded">
           {alertMessage}
         </div>
       )}
 
-      {/* Filters */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
         <input
           type="text"
@@ -74,7 +72,6 @@ function ShopPageLayout() {
         </select>
       </div>
 
-      {/* Products Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {sortedProducts.map((product) => (
           <div

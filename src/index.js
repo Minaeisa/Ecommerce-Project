@@ -1,5 +1,4 @@
-import React from 'react';
-import './index.css'; // مهم علشان Tailwind يشتغل
+import './index.css'; 
 
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

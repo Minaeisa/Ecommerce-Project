@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import { Fragment } from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/NavBar/NavBar';
@@ -13,7 +13,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import Cart from './components/Cart/Cart';
 import ContactUs from './components/Contact/ContactUs';
 import Footer from './components/Footer/Footer';
-import FilteredProducts from './components/Products/AllProducts/FilteredProducts ';
 import CategoryProducts from './components/Products/CategoryProducts.jsx';
 import Grid from './components/Blog/Grid.jsx';
 import ShopPageLayout from './components/Shop/ShopPageLayout.jsx';
@@ -37,7 +36,6 @@ function App() {
         <Route path="/pages/login" element={<Login />} />
         <Route path="/cart" element={<Cart/>} />
         <Route path="/category/:categoryName" element={<CategoryProducts />} />
-        <Route path="/products/category/:category" element={<FilteredProducts />} />
         <Route path="/blog/grids" element={<Grid />} />
         <Route path="/shop/layout" element={<ShopPageLayout />} />
         <Route path="/pages/faq" element={<FAQ />} />

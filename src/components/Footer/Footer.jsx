@@ -3,7 +3,6 @@
 function Footer() {
   return (
     <>
-      {/* Newsletter Section */}
       <div className="bg-[#1f2937] py-6 text-white px-4">
         <form className="max-w-4xl mx-auto flex flex-col sm:flex-row sm:items-stretch items-center justify-center gap-4 sm:gap-0">
           <span className="text-base md:text-lg font-medium text-center sm:text-left mb-2 sm:mb-0 sm:mr-4">
@@ -26,10 +25,8 @@ function Footer() {
         </form>
       </div>
 
-      {/* Footer Section */}
       <footer className="bg-[#1f2937] text-white py-6 md:py-10 px-4 text-sm md:text-base">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
-          {/* Column 1 */}
           <div>
             <h3 className="text-lg md:text-xl font-bold mb-3">Shopwise</h3>
             <p className="text-gray-400 mb-4">
@@ -44,7 +41,6 @@ function Footer() {
             </div>
           </div>
 
-          {/* Useful Links */}
           <div>
             <h4 className="font-semibold text-base md:text-lg mb-3">Useful Links</h4>
             <ul className="space-y-2 text-gray-400">
@@ -56,7 +52,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Categories */}
           <div>
             <h4 className="font-semibold text-base md:text-lg mb-3">Categories</h4>
             <ul className="space-y-2 text-gray-400">
@@ -67,7 +62,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* My Account */}
           <div>
             <h4 className="font-semibold text-base md:text-lg mb-3">My Account</h4>
             <ul className="space-y-2 text-gray-400">
@@ -79,7 +73,6 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div className="pl-2 sm:pl-0">
   <h4 className="font-semibold mb-3">Contact Info</h4>
   <ul className="space-y-4 text-gray-300 text-sm">
