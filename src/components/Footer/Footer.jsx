@@ -55,10 +55,10 @@ function Footer() {
           <div>
             <h4 className="font-semibold text-base md:text-lg mb-3">Categories</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="/products/category/men's clothing" className="hover:text-indigo-500">Men's Clothing</a></li>
-              <li><a href="/products/category/women's clothing" className="hover:text-indigo-500">Women's Clothing</a></li>
-              <li><a href="/products/category/jewelery" className="hover:text-indigo-500">Jewelery</a></li>
-              <li><a href="/products/category/electronics" className="hover:text-indigo-500">Electronics</a></li>
+              <li><a href="/category/men's clothing" className="hover:text-indigo-500">Men's Clothing</a></li>
+              <li><a href="/category/women's clothing" className="hover:text-indigo-500">Women's Clothing</a></li>
+              <li><a href="/category/jewelery" className="hover:text-indigo-500">Jewelery</a></li>
+              <li><a href="/category/electronics" className="hover:text-indigo-500">Electronics</a></li>
             </ul>
           </div>
 
